@@ -17,3 +17,7 @@ Yes, but make sure you have labled/mention me.
 > Why the name?
 
 ***IT'S COOL***
+
+> Why i have a warning from microsoft defender/antivirus?
+
+Maybe the antivirus detected the terminal is a virus. (Cus it runs scripts.)
