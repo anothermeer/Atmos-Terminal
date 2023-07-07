@@ -31,6 +31,11 @@ if %cmd%==cmd.mdir goto CMDDIRmkdir
 rem internet command
 if %cmd%==cmd.ipc goto INTERNETipc
 if %cmd%==cmd.ipca goto INTERNETipca
+if %cmd%==cmd.ipcres goto INTERNETipc.reset
+if %cmd%==cmd.ipcget goto INTERNETipc.renew
+if %cmd%==cmd.ipreget goto INTERNETipc.reget
+rem game commands
+if %cmd%==cmd.g2048 goto GAME2048
 
 echo invalid command.
 echo.
@@ -38,7 +43,7 @@ goto cmdAgain
 
 :help
 echo.
-echo Atmos Terminal v1.3.162
+echo Atmos Terminal v1.4.32
 echo List of avalible commands :
 echo.
 echo [7;96mfunctional commands[0m
@@ -60,6 +65,12 @@ echo.
 echo [7;96mnetworking commands[0m
 echo cmd.ipc     - Show all the network satus
 echo cmd.ipca    - Show detailed network satus
+echo cmd.ipcres  - remove your IP address
+echo cmd.ipcget  - get your new IP address
+echo cmd.ipreget - basicly run both ipcres and ipcget
+echo.
+echo [7;96mgame commands[0m
+echo +-- COMMING SOON! --+
 echo.
 goto cmdAgain
 
@@ -81,7 +92,7 @@ echo.
 goto cmdAgain
 
 :CMDver
-echo Atmos Terminal v1.3.162
+echo Atmos Terminal v1.4.32
 echo.
 goto cmdAgain
 
@@ -122,7 +133,8 @@ echo current dir
 echo %CD%
 set /p mkdir="Directory Name: "
 mkdir %mkdir%
-echo cmdAgain
+echo.
+goto cmdAgain
 
 :INTERNETipc
 ipconfig
@@ -131,6 +143,28 @@ goto cmdAgain
 
 :INTERNETipca
 ipconfig /all
+echo.
+goto cmdAgain
+
+:INTERNETipc.reset
+ipconfig /release
+echo.
+goto cmdAgain
+
+:INTERNETipc.renew
+ipconfig /renew
+echo.
+goto cmdAgain
+
+:INTERNETipc.reget
+ipconfig /release
+echo.
+echo please wait 2 seconds for reget IP
+timeout /t 2 /nobreak > NUL
+echo.
+ipconfig /renew
+echo.
+echo Complete.
 echo.
 goto cmdAgain
 
