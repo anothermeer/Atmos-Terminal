@@ -13,7 +13,7 @@
 
 > Can I Show off to other people?
 
-Yes, all rights are under GPL3 license(GNU Public Licence 3).
+Yes, all rights are under GPL3 license(GNU General Public License v3.0).
 
 > Why the name?
 
