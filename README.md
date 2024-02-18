@@ -3,8 +3,9 @@
 
 > How to use?
 1. Download the file
-2. run the file
-3. run `cmd.help` to get list of commands
+2. select the file
+3. run as admin
+4. run `cmd.help` to get list of commands
 
 > Why skip Versions?
 - it's cool
@@ -12,7 +13,7 @@
 
 > Can I Show off to other people?
 
-Yes, but make sure you have labled/mention me.
+Yes, all rights are under GNU license.
 
 > Why the name?
 
@@ -20,4 +21,4 @@ Yes, but make sure you have labled/mention me.
 
 > Why i have a warning from microsoft defender/antivirus?
 
-Maybe the antivirus detected the terminal is a virus. (Cus it runs scripts.)
+Maybe the antivirus detected the terminal is a virus. (Cus it uses batch to runs scripts.)
