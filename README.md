@@ -17,8 +17,12 @@ Yes, all rights are under GPL3 license(GNU General Public License v3.0).
 
 > Why the name?
 
-***IT'S COOL***
+atmos, short for atmosphere, terminal. Combine it and become the name.
 
 > Why i have a warning from microsoft defender/antivirus?
 
-Maybe the antivirus detected the terminal is a virus. (Cus it uses batch to runs scripts.)
+Maybe the antivirus think the terminal is a virus. (Cus it uses batch to runs scripts.)
+
+> How do you compile it even if you write in batch?
+
+bat to exe converter obviously.
