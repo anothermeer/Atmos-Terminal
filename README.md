@@ -25,4 +25,8 @@ Maybe the antivirus think the terminal is a virus. (Cus it uses batch to runs sc
 
 > How do you compile it even if you write in batch?
 
-bat to exe converter obviously.
+bat to exe converter obviously.I'm still learning c#...
+
+
+
+that's all ^-^
