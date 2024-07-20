@@ -11,6 +11,7 @@
 > Why skip Versions?
 - it's cool
 - i'm so bored at the time
+- version '1.8.0' canceled this...
 
 
 > Can I Show off to other people?
