@@ -1,0 +1,8 @@
+Ver 1.8.0
+1. remove Gsnake
+2. add back Gnumber
+3. fix bugs
+4. cancel version skip joke
+
+Ver 1.8.1
+1. add more commands
