@@ -2,6 +2,7 @@
 **Yes, a simple terminal made by me when i'm bored.**
 
 > How to use?
+0. Choose a release 
 1. Download the file
 2. select the file
 3. run as admin
@@ -11,8 +12,7 @@
 > Why skip Versions?
 - it's cool
 - i'm so bored at the time
-- version '1.8.0' canceled this...
-
+- only with batch version
 
 > Can I Show off to other people?
 
@@ -34,6 +34,9 @@ Maybe the antivirus think the terminal is a virus. (Cus it uses batch to runs sc
 bat to exe converter obviously.I'm still learning c++...
 
 
+> Why CPP version folder is empty?
+
+stay tune for it 👀✨
 
 
 
