@@ -4,11 +4,18 @@
 
 Yet another basic terminal made by myself when i'm grounded. (I made the first version on my linux server, cool right? :) )
 
+## Project Status
+
+```
+Batch ver : 1.7.4
+CPP    ver : not yet released
+```
+
 
 ## Installation 
 no need to install, just download the newest release, unpack it and ready to run!
 #### Warning:
-Some commands requires admin priviledge, but you still can run it in non-admin environment.
+Some commands requires admin priviledge, but you still can run it in non-admin environment. The CPP version 
 
 ## Features
 
