@@ -20,7 +20,8 @@ Some commands requires admin priviledge, but you still can run it in non-admin e
 ## Features
 
 - Wonderful CLI
-- bash-like syntax & CLI
+- bash-like syntax
+- basically mix of terminals
 - Built in apps
 - Easy to break (please report the bug ;-;)
 - Runs linux apps even your OS is windows and vice versa I think
