@@ -8,7 +8,7 @@ Yet another basic terminal made by myself when i'm grounded. (I made the first v
 
 ```
 Batch ver : 1.7.4
-CPP    ver : not yet released
+C++   ver : not yet released
 ```
 
 
