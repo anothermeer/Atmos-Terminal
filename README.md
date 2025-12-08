@@ -13,9 +13,11 @@ C++   ver : not yet released
 
 
 ## Installation 
-no need to install, just download the newest release, unpack it and ready to run!
-#### Warning:
-Some commands requires admin priviledge, but you still can run it in non-admin environment. The CPP version 
+no need to install for the batch version, just download the newest release, unpack it and ready to run!
+> Warning:
+Some commands requires admin priviledge, but you still can run it in non-admin environment.
+### C++ Version - How to compile
+`g++.exe --verbose -o Atmos-Terminal.exe Atmos-Terminal.cpp -static-libgcc -static-libstdc++ --static`
 
 ## Features
 
